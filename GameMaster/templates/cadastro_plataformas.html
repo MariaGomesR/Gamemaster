@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameMaster</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Início</a>
+        <a href="/cadastro_plataformas">Cadastro de Plataformas</a>
+        <a href="/consulta_plataformas">Consulta de Plataformas</a>
+        <a href="/cadastro_jogo">Cadastro de Jogos</a>
+        <a href="#">Consulta de Jogos</a>
+    </nav>
+
+    <div>
+        <h2>Cadastro de Platarfoma</h2>
+        <form action="/cadastro_plataformas" method="post" enctype="multipart/form-data">
+            <label for="">Nome da Platarfoma:</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="">Fabricante:</label>
+            <input type="text" name="fabricante" id="fabricante" required>
+
+            <label for="">Imagem da Plataforma:</label>
+            <input type="file" name="imagem" id="imagem" accept="image/*" required> <!-- irá aceitar apenas imagens (* = jpg, png, gif)-->
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
