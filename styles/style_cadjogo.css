@@ -1,0 +1,45 @@
+@import  url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import  url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+    --font-primaria: "Bebas Neued"; /*titulo e botão*/
+    --font-cabe: "DM Sans"; /*todo o resto*/
+    --cor-fundo: #000000;
+    --cor-padding: #380b0e;
+    --cor-fonte: white; /*Cor das letras é branco com transparencia*/
+    --cor-barra-navegação:#c9090f;
+    --cor-border:#951d26;
+}
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+nav{
+    text-align: right;
+    font-family: var(--font-cabe);
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 19.8px;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration:line-through ;
+    text-decoration-color: var(--cor-barra-navegação);
+}
+
+
+
+
+
+
+
+
+
+
+
+
