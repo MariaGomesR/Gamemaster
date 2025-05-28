@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameMaster</title>
+    <link rel="stylesheet" href="/static/styles/style_cadjogo.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Início</a>
+        <a href="/cadastro_plataformas">Cadastro de Plataformas</a>
+        <a href="/consulta_plataformas">Consulta de Plataformas</a>
+        <a href="/cadastro_jogo">Cadastro de Jogos</a>
+        <a href="/consulta_jogos">Consulta de Jogos</a>
+    </nav>
+
+    <div>
+        <h2 class="titulo">Cadastro de Jogos</h2>
+        <form action="/cadastro_jogo" method="post">
+            <label for=""></label>
+            <input type="text" name="nomej" id="nomej" placeholder="Nome" required>
+
+            <label for=""></label>
+            <input type="text" name="genero" id="genero" placeholder="Gênero" required>
+
+            <label for=""></label>
+            <input type="date" name="data" id="data" required>
+            
+            <button class="botao" type="submit">Cadastrar</button>
+                <img class="miranha" src="../static/assets/miranha.png" alt="">
+                <img class="logo" src="../static/assets/logo.png" alt="">
+                <img class="fundo" src="../static/assets/fundo.png" alt="">
+            </form>
+       </form>
+
+    </div>
+
+</body>
